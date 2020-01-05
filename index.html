@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Photography Portfolio Website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="main-overlay js-main-overlay"></div>
+    <section class="cover-main" id="home">
+      <header>
+        <nav class="nav-wrapper">
+          <div class="logo">
+            <a href="#">
+              <h1>MSkibicki</h1>
+            </a>
+          </div>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#slider">Slider</a></li>
+            <li><a href="#footer">Footer</a></li>
+          </ul>
+        </nav>
+        <div class="menu-trigger js-menu-trigger"></div>
+      </header>
+      <div class="wrapper">
+        <ul
+          id="scene"
+          data-calibrate-x="false"
+          data-calibrate-y="true"
+          data-invert-x="false"
+          data-invert-y="false"
+          data-scalar-x="7"
+          data-scalar-y="7"
+          data-friction-x="0.1"
+          data-friction-y="0.1"
+          data-origin-x="0.5"
+          data-origin-y="0.5"
+        >
+          <li class="layer name" data-depth="0.90">Mateusz Skibicki</li>
+          <li class="layer title" data-depth="0.50">
+            My Photography Portfolio
+          </li>
+          <li class="layer btn btn-main" data-depth="0.30">
+            <a href="#work" class="portfolio-btn">View Portfolio</a>
+            <a href="#about" class="contact-btn">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="masonry-grid" id="work">
+      <h2 class="sub-title">Portfolio Gallery</h2>
+      <div class="grid">
+        <div class="grid-item"><img src="images/IMG_6587.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_3499.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6645.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6726-2.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6300.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6197.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6222.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6715.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6615.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_5979.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_1859.jpg" /></div>
+        <div class="grid-item"><img src="images/IMG_6219.jpg" /></div>
+      </div>
+    </section>
+
+    <section class="beating-heart" id="about">
+      <div class="wrapper">
+        <h2 class="sub-title">About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. A voluptatum expedita, eum fugit culpa
+          natus quasi nesciunt, nobis architecto quisquam, nemo deserunt dolorem
+          tenetur porro ipsa. Excepturi, exercitationem commodi ipsam.
+        </p>
+        <span>I</span>
+        <svg class="heart" viewBox="0 0 32 29.6">
+          <path
+            d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+          />
+        </svg>
+        <span>PHOTOGRAPHY</span>
+      </div>
+    </section>
+
+    <div class="slider-div" id="slider">
+      <h2 class="sub-title">Slider Showcase</h2>
+      <div class="slider">
+        <div class="slide">
+          <img src="images/IMG_0482.jpg" class="img-responsive" />
+        </div>
+        <div class="slide">
+          <img src="images/IMG_1859.jpg" class="img-responsive" />
+        </div>
+        <div class="slide">
+          <img src="images/IMG_5700.jpg" class="img-responsive" />
+        </div>
+        <div class="slide">
+          <img src="images/IMG_3622.jpg" class="img-responsive" />
+        </div>
+        <div class="slide">
+          <img src="images/IMG_2265.jpg" class="img-responsive" />
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <h1>Follow Me</h1>
+      <a href="https://github.com/MSkibicki">Github</a>
+      <p>© Copyright Mateusz Skibicki 2020</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/parallax.min.js"></script>
+    <script src="scripts/masonry.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
